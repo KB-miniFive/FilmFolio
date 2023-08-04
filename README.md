@@ -34,9 +34,8 @@
   - 사용자 : 회원가입 / 회원 탈퇴 / 회원정보 수정
 
 ## Front UI
-<img width="716" alt="image" src="https://github.com/KB-miniFive/FilmFolio/assets/78676660/28f1a0e4-e668-4c30-aa1e-557d8f860085">
-<img width="755" alt="image" src="https://github.com/KB-miniFive/FilmFolio/assets/78676660/9801bc31-0e3b-4b38-9446-d564825c255b">
-
+![ui1](https://github.com/KB-miniFive/FilmFolio/assets/81132057/052d0e12-0435-4a66-8803-51a7e74cb2c8)
+![ui2](https://github.com/KB-miniFive/FilmFolio/assets/81132057/b2df860a-1ed1-425c-9e81-43e10cd156aa)
 
 ## Business Logic Template
 ![image](https://github.com/KB-miniFive/FilmFolio/assets/78676660/f3a0e565-8ed4-4182-8666-3c766c47814f)

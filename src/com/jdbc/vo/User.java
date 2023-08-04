@@ -3,8 +3,9 @@ package com.jdbc.vo;
 public class User {
 	private String userId;
 	private int admin;
-	
-	public User() {}
+
+	public User() {
+	}
 
 	public User(String userId, int admin) {
 		super();
@@ -32,5 +33,5 @@ public class User {
 	public String toString() {
 		return "User [userId=" + userId + ", admin=" + admin + "]";
 	}
-	
+
 }

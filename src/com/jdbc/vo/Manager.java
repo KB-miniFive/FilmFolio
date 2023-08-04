@@ -1,12 +1,13 @@
 package com.jdbc.vo;
 
-public class Manager extends User{
+public class Manager extends User {
 	private String dept;
-	
-	public Manager() {}
 
-	public Manager(String userId, int admin, String dept) {
-		super(userId, admin);
+	public Manager() {
+	}
+
+	public Manager(String userId, String dept) {
+		super(userId, 1);
 		this.dept = dept;
 	}
 
@@ -20,8 +21,7 @@ public class Manager extends User{
 
 	@Override
 	public String toString() {
-		return "Manager [dept=" + dept + "]"+super.toString();
+		return "Manager [dept=" + dept + "]" + super.toString();
 	}
-	
 
 }
