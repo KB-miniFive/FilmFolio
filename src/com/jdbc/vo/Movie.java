@@ -7,53 +7,86 @@ public class Movie {
 	private String genre;
 	private Date releaseDate;
 	private String company;
-	private int rate;
-	
-	public Movie() {}
-	public Movie(String title, String genre, Date releaseDate, String company, int rate) {
+	private int totalrate;
+	private String totalreview;
+
+    public Movie(String title, String totalreview) {
+        super();
+        this.title = title;
+        this.totalreview = totalreview;
+    }
+
+
+    public String getTotalreview() {
+        return totalreview;
+    }
+
+    public void setTotalreview(String totalreview) {
+    this.totalreview = totalreview;
+    }
+
+	public Movie() {
+	}
+
+	public Movie(String title, String genre, Date releaseDate, String company, int totalrate) {
 		super();
 		this.title = title;
 		this.genre = genre;
 		this.releaseDate = releaseDate;
 		this.company = company;
-		this.rate = rate;
+		this.totalrate = totalrate;
 	}
+
 	public String getTitle() {
 		return title;
 	}
+
 	public void setTitle(String title) {
 		this.title = title;
 	}
+
 	public String getGenre() {
 		return genre;
 	}
+
 	public void setGenre(String genre) {
 		this.genre = genre;
 	}
+
 	public Date getReleaseDate() {
 		return releaseDate;
 	}
+
 	public void setReleaseDate(Date releaseDate) {
 		this.releaseDate = releaseDate;
 	}
+
 	public String getCompany() {
 		return company;
 	}
+
 	public void setCompany(String nation) {
 		this.company = nation;
 	}
-	public int getRate() {
-		return rate;
+
+	public int getTotalRate() {
+		return totalrate;
 	}
-	public void setRate(int rate) {
-		this.rate = rate;
+
+	public void setTotalRate(int totalrate) {
+		this.totalrate = totalrate;
 	}
+
+	public static Date convertToDate(String dateString) {
+
+		return Date.valueOf(dateString);
+
+	}
+
 	@Override
 	public String toString() {
 		return "Movie [title=" + title + ", genre=" + genre + ", releaseDate=" + releaseDate + ", company=" + company
-				+ ", rate=" + rate + "]";
+				+ ", totalrate=" + totalrate + "]";
 	}
-	
-	
-	
+
 }
