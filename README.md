@@ -22,9 +22,23 @@
 ## DB설계
 ![DBmodeling](https://github.com/KB-miniFive/FilmFolio/assets/78676660/8297def7-c7ff-4793-ab93-2884b31aeaf6)
 
+## UseCase 설계
+![Usecase](https://github.com/KB-miniFive/FilmFolio/assets/78676660/c78ffba0-ee5d-439c-ad86-bba2842f05e1)
+
+## Class Diagram
+<img width="1111" alt="ClassDiagram" src="https://github.com/KB-miniFive/FilmFolio/assets/78676660/63e0c518-4824-4f76-b80a-c0c40dc6d184">
+
 ## 주요 기능 
   - 관리자 : 영화 추가 / 삭제 / 수정 / 전체 사용자 확인 
   - 사용자 : 회원가입 / 회원 탈퇴 / 회원정보 수정
+
+## Front UI
+![ui2](https://github.com/KB-miniFive/FilmFolio/assets/78676660/df1573d7-d10d-4806-b437-bcb51599b695)
+![ui1](https://github.com/KB-miniFive/FilmFolio/assets/78676660/3eef128d-a211-4674-ae69-49aaf3263434)
+
+
+## Business Logic Template
+<img width="970" alt="스크린샷 2023-08-03 오후 5 21 13" src="https://github.com/KB-miniFive/FilmFolio/assets/78676660/86ac18c4-19cb-4b16-a5c9-74f8e8cab8d6">
 
 ## DAO
 
