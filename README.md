@@ -20,7 +20,8 @@
   - 협업 Tool : Github, Matter Most, Kakao Talk
 
 ## DB설계
-![DBmodeling](https://github.com/KB-miniFive/FilmFolio/assets/78676660/8297def7-c7ff-4793-ab93-2884b31aeaf6)
+<img width="865" alt="image" src="https://github.com/KB-miniFive/FilmFolio/assets/78676660/59f1e71f-6fb1-4718-a0ce-dc4822cbec17">
+
 
 ## UseCase 설계
 ![Usecase](https://github.com/KB-miniFive/FilmFolio/assets/78676660/c78ffba0-ee5d-439c-ad86-bba2842f05e1)
@@ -33,13 +34,15 @@
   - 사용자 : 회원가입 / 회원 탈퇴 / 회원정보 수정
 
 ## Front UI
-![ui2](https://github.com/KB-miniFive/FilmFolio/assets/78676660/df1573d7-d10d-4806-b437-bcb51599b695)
-![ui1](https://github.com/KB-miniFive/FilmFolio/assets/78676660/3eef128d-a211-4674-ae69-49aaf3263434)
+<img width="716" alt="image" src="https://github.com/KB-miniFive/FilmFolio/assets/78676660/28f1a0e4-e668-4c30-aa1e-557d8f860085">
+
 
 
 ## Business Logic Template
-<img width="970" alt="스크린샷 2023-08-03 오후 5 21 13" src="https://github.com/KB-miniFive/FilmFolio/assets/78676660/86ac18c4-19cb-4b16-a5c9-74f8e8cab8d6">
+<img width="755" alt="image" src="https://github.com/KB-miniFive/FilmFolio/assets/78676660/9801bc31-0e3b-4b38-9446-d564825c255b">
 
 ## DAO
 
 ## 후기
+<img width="945" alt="스크린샷 2023-08-04 오후 5 09 48" src="https://github.com/KB-miniFive/FilmFolio/assets/78676660/07bb0c0c-fc45-455a-b0f1-ee00d654cdc1">
+<img width="964" alt="스크린샷 2023-08-04 오후 5 17 32" src="https://github.com/KB-miniFive/FilmFolio/assets/78676660/56133d6f-4ba4-45ca-854e-7d0608661983">
