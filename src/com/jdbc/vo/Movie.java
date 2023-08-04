@@ -6,16 +6,16 @@ public class Movie {
 	private String title;
 	private String genre;
 	private Date releaseDate;
-	private String nation;
+	private String company;
 	private int rate;
 	
 	public Movie() {}
-	public Movie(String title, String genre, Date releaseDate, String nation, int rate) {
+	public Movie(String title, String genre, Date releaseDate, String company, int rate) {
 		super();
 		this.title = title;
 		this.genre = genre;
 		this.releaseDate = releaseDate;
-		this.nation = nation;
+		this.company = company;
 		this.rate = rate;
 	}
 	public String getTitle() {
@@ -36,11 +36,11 @@ public class Movie {
 	public void setReleaseDate(Date releaseDate) {
 		this.releaseDate = releaseDate;
 	}
-	public String getNation() {
-		return nation;
+	public String getCompany() {
+		return company;
 	}
-	public void setNation(String nation) {
-		this.nation = nation;
+	public void setCompany(String nation) {
+		this.company = nation;
 	}
 	public int getRate() {
 		return rate;
@@ -50,7 +50,7 @@ public class Movie {
 	}
 	@Override
 	public String toString() {
-		return "Movie [title=" + title + ", genre=" + genre + ", releaseDate=" + releaseDate + ", nation=" + nation
+		return "Movie [title=" + title + ", genre=" + genre + ", releaseDate=" + releaseDate + ", company=" + company
 				+ ", rate=" + rate + "]";
 	}
 	

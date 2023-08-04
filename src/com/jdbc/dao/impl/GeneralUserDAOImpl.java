@@ -8,25 +8,8 @@ import com.jdbc.vo.Movie;
 import com.jdbc.vo.Review;
 import com.jdbc.vo.User;
 
-public class GeneralUserDAOImpl implements GeneralUserDAO{
+public class GeneralUserDAOImpl extends UserDAOImpl implements GeneralUserDAO {
 
-	@Override
-	public void addUser(User user) throws SQLException {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void deleteUser(String userId) throws SQLException {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void updateUser(User user) throws SQLException {
-		// TODO Auto-generated method stub
-		
-	}
 
 	@Override
 	public void addReview(String userId, Review review) throws SQLException {

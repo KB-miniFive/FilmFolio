@@ -7,7 +7,7 @@ import com.jdbc.vo.Movie;
 import com.jdbc.vo.Review;
 import com.jdbc.vo.User;
 
-public interface GeneralUserDAO extends UserDAO {
+public interface GeneralUserDAO {
 	void addReview(String userId, Review review) throws SQLException;
 
 	void deleteReview(String userId, Review review) throws SQLException;

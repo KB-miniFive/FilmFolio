@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import com.jdbc.vo.Movie;
 import com.jdbc.vo.User;
 
-public interface ManagerDAO extends UserDAO{
+public interface ManagerDAO {
 	void addMovie(int admin, Movie movie)throws SQLException;
 	
 	void deleteMovie(int admin, Movie movie)throws SQLException; 
